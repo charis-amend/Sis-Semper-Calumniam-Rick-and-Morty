@@ -2,9 +2,12 @@
   height: 30px;
   display: grid;
   grid-template-columns: 100px 100px 100px;
+  position: fixed;
+  bottom: 0;
 }
 
 .navigation__pagination {
   display: grid;
   place-items: center;
+  background-color: hotpink;
 }
