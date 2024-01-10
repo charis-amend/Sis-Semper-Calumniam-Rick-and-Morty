@@ -1,15 +1,15 @@
 export function createCharacterCard(character) {
-    const cardContainer = document.querySelector('[data-js="card-container"]')
-    const card = document.createElement('li');
-    card.classList.add('card')
-    
-    const imageOfCharacterUrl = character.image
-    const nameOfCharacter = character.name
-    const statusOfCharacter = character.status
-    const typeOfCharacter = character.type
-    const numberOfOccurencesOfOneCharacter = characters.episode.length
+  const cardContainer = document.querySelector('[data-js="card-container"]')
+  const card = document.createElement('li');
+  card.classList.add('card')
 
-    card.innerHTML = `
+  const imageOfCharacterUrl = character.image
+  const nameOfCharacter = character.name
+  const statusOfCharacter = character.status
+  const typeOfCharacter = character.type
+  const numberOfOccurencesOfOneCharacter = character.episode.length
+
+  card.innerHTML = `
     <div class="card__image-container">
       <img class="card__image" src="${character.image}" alt="image-of-${character.name}" />
       <div class="card__image-gradient"></div>
@@ -22,10 +22,9 @@ export function createCharacterCard(character) {
         <dt class="card__info-title">Type</dt>
         <dd class="card__info-description">${character.type}</dd>
         <dt class="card__info-title">Occurrences</dt>
-        <dd class="card__info-description">${ numberOfOccurencesOfOneCharacter }</dd>
+        <dd class="card__info-description">${numberOfOccurencesOfOneCharacter}</dd>
       </dl>
     </div>
   `;
   cardContainer.append(card)
-  }
-  
+}
