@@ -1,6 +1,6 @@
 import { createCharacterCard } from "./components/card/card.js"
 import { ButtonsClick } from "./components/nav-button/nav-button.js"
-
+import { UpdatePagination } from "./components/nav-pagination/nav-pagination.js";
 // import { } from "./components/nav-pagination/nav-pagination.js"
 
 
@@ -15,7 +15,7 @@ const nextButton = document.querySelector('[data-js="button-next"]');
 const pagination = document.querySelector('[data-js="pagination"]');
 
 // States
-// const maxPage = 42;
+const maxPage = 42;
 let currentPage = 1;
 const searchQuery = "";
 
@@ -28,7 +28,7 @@ export async function fetchCharacters(page) {
 
       // getting everything from the api
       const dataApi = await response.json();
-      console.log(dataApi)
+      // console.log(dataApi)
 
       // getting maxPage = 42 from api
       // const maxPage = dataApi.info.pages;
@@ -47,6 +47,9 @@ export async function fetchCharacters(page) {
 }
 
 fetchCharacters(currentPage);
+ButtonsClick();
+UpdatePagination(currentPage);
+
 
 
 
