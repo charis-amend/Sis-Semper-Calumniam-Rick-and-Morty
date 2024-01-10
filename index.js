@@ -1,4 +1,8 @@
 import { createCharacterCard } from "./components/card/card.js"
+import { ButtonsClick } from "./components/nav-button/nav-button.js"
+
+// import { } from "./components/nav-pagination/nav-pagination.js"
+
 
 const cardContainer = document.querySelector('[data-js="card-container"]');
 const searchBarContainer = document.querySelector(
@@ -12,11 +16,11 @@ const pagination = document.querySelector('[data-js="pagination"]');
 
 // States
 // const maxPage = 42;
-let page = 1;
+let currentPage = 1;
 const searchQuery = "";
 
 // fetchCharacters function -- get the first 20 characters from the API
-async function fetchCharacters(page) {
+export async function fetchCharacters(page) {
   try {
     const response = await fetch(`https://rickandmortyapi.com/api/character/?page=${page}`)
 
@@ -27,7 +31,7 @@ async function fetchCharacters(page) {
       console.log(dataApi)
 
       // getting maxPage = 42 from api
-      const maxPage = dataApi.info.pages;
+      // const maxPage = dataApi.info.pages;
 
       // emptying out cardContainer: 
       cardContainer.innerHTML = '';
@@ -41,4 +45,9 @@ async function fetchCharacters(page) {
     console.error("the API rickmorty is not fetching, see index.js fetchCharacters()", error)
   }
 }
-fetchCharacters(page);
+
+fetchCharacters(currentPage);
+ButtonsClick();
+
+
+
