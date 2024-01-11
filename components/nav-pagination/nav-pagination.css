@@ -10,4 +10,6 @@
   display: grid;
   place-items: center;
   background-color: #a8d6e5;
+  font-size: 15px;
+  color: white;
 }
