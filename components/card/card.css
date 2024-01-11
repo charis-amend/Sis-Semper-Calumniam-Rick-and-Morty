@@ -1,7 +1,7 @@
 .card-container {
   margin-bottom: 10px;
   /* padding-top: calc(var(--height-title) + var(--height-searchbar)); */
-  margin-top: 200px;
+  margin-top: 132px;
 }
 .card {
   width: 300px;
@@ -9,7 +9,6 @@
   border-color: var(--color-primary);
   border-style: solid;
   border-radius: 10px;
-
   margin-bottom: 5px;
 }
 
@@ -20,7 +19,7 @@
 
 .card__image {
   border-radius: 10px;
-
+  box-shadow: 1px 1px 1px 1px black;
   width: 100%;
 }
 

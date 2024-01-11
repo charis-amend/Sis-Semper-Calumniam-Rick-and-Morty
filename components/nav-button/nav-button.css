@@ -1,14 +1,14 @@
 .button {
   border: none;
-  background-color: #1195ac;
-  border-radius: 2px;
+  background-color: var(--color-primary);
+  border-radius: 100px;
   color: white;
   font-size: 15px;
-  font-family: 'RubikDoodleShadow-Regular', sans-serif;
+  font-family: var(--font-arrow);
 }
 
 .button:hover {
-  background-color: #a8d6e5;
+  background-color: var(--color-four-yellow);
   box-shadow: 2px, 2px, 1px, 1px;
   color: var(--color-primary);
 }
