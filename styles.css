@@ -50,6 +50,7 @@ header {
 .header__logo {
   padding: 10px;
   width: 300px;
+  border-radius: 30px;
 }
 
 main {

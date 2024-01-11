@@ -31,21 +31,29 @@ export async function fetchCharacters(page, searchquery) {
       const dataApi = await response.json();
       // console.log(dataApi)
 
-      // getting maxPage = 42 from api
-      // const maxPage = dataApi.info.pages;
-
       // emptying out cardContainer: 
       cardContainer.innerHTML = '';
 
       const characters = dataApi.results;
-
       characters.forEach((character) => { createCharacterCard(character) });
+    }
+
+    // if something goes wrong with the fetch url eg. wrong name:
+    else {
+      console.log("error, didnt find a character")
+      cardContainer.innerHTML = `
+      <p> We couldn't find the character, you are looking for.</p>
+      `;
     }
 
   } catch (error) {
     console.error("the API rickmorty is not fetching, see index.js fetchCharacters()", error)
   }
 }
+
+
+
+
 
 fetchCharacters(currentPage, searchQuery);
 ButtonsClick();
