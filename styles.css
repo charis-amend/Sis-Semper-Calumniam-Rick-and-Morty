@@ -18,6 +18,8 @@
 :root {
   --color-primary: #262c3a;
   --color-secondary: #eceef3;
+  --color-third-turkis: #1195ac;
+  --color-four-yellow: #c6df5f;
   --font-family: system-ui;
   --font-arrow: RubikDoodleShadow-Regular;
   --height-header: 100px;
@@ -28,6 +30,7 @@ body {
   font-family: var(--font-family), var(--font-arrow);
   color: var(--color-primary);
   padding: 20px;
+  display: flex;
 }
 
 header {
@@ -39,7 +42,7 @@ header {
   background-color: var(--color-secondary);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  top: 0;
+
   display: flex;
   justify-content: center;
 }
@@ -53,6 +56,17 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+footer {
+  width: 300px;
+  position: fixed;
+  bottom: 0;
+  height: 55px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
 }
 /* 
 .title {
