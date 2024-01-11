@@ -3,6 +3,13 @@
   /* padding-top: calc(var(--height-title) + var(--height-searchbar)); */
   margin-top: 132px;
 }
+
+.card-container > p {
+  font-family: RubikDoodleShadow-Regular;
+  font-size: 14px;
+  color: var(--color-four-yellow);
+}
+
 .card {
   width: 300px;
   background-color: var(--color-secondary);
