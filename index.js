@@ -42,7 +42,7 @@ export async function fetchCharacters(page, searchquery) {
     else {
       console.log("error, didnt find a character")
       cardContainer.innerHTML = `
-      <p> We couldn't find the character, you are looking for.</p>
+      <p> We couldn't find the character, you are looking for. Please try searching the multiverse again!</p>
       `;
     }
 

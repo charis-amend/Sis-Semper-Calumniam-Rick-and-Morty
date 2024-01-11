@@ -29,20 +29,20 @@
 body {
   font-family: var(--font-family), var(--font-arrow);
   color: var(--color-primary);
-  padding: 20px;
+  padding: 10px;
   display: flex;
+  justify-content: center;
+  width: 100vw;
 }
 
 header {
-  width: 300px;
+  width: 100vw;
   position: fixed;
   top: 0;
   height: var(--height-header);
-  /* background-color: #262c3a; */
   background-color: var(--color-secondary);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-
   display: flex;
   justify-content: center;
 }
@@ -54,13 +54,16 @@ header {
 }
 
 main {
+  width: 310px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  align-items: center;
+  /* gap: 10px; */
+  margin: 3px;
 }
 
 footer {
-  width: 300px;
+  width: 100%;
   position: fixed;
   bottom: 0;
   height: 55px;

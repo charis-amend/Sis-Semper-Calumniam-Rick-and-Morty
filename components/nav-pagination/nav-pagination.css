@@ -1,7 +1,6 @@
 .navigation {
-  width: 130px;
+  width: 140px;
   height: 30px;
-
   margin-bottom: 40px;
   display: grid;
   grid-template-columns: 40px 60px 40px;
