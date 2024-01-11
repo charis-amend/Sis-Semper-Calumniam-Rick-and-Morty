@@ -8,15 +8,14 @@
     />
     <title>Rick and Morty Character Log</title>
     <link rel="stylesheet" href="./styles.css" />
-
   </head>
   <body>
-    <!-- <h1 class="title">Rick and More</h1> -->
-  
-
+    <header class="header" aria-label="picture of Rick and Morty logo">
+      <!-- <h1 class="title">Rick and More</h1> -->
+      <img src="./assets/rickmortylogo.png" alt="Logo" class="header__logo" />
+    </header>
     <main>
       <div class="search-bar-container" data-js="search-bar-container">
-        <img src="./assets/rickmortylogo.jpeg" alt="Logo" class="logo">
         <form action="" class="search-bar" data-js="search-bar">
           <input
             name="query"
@@ -60,11 +59,9 @@
       </ul>
     </main>
     <nav class="navigation" data-js="navigation">
-      <button class="button button--prev" data-js="button-prev">
-        <
-      </button>
+      <button class="button button--prev" data-js="button-prev"><</button>
       <span class="navigation__pagination" data-js="pagination"></span>
-      <button class="button button--next" data-js="button-next">next</button>
+      <button class="button button--next" data-js="button-next">></button>
     </nav>
   </body>
   <script type="module" src="./index.js"></script>

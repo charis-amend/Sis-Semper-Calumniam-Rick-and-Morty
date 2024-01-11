@@ -4,7 +4,7 @@
   border-radius: 2px;
   color: white;
   font-size: 15px;
-  font-family: 'RubikDoodleShadow-Regular', sans-serif;
+  font-family: var(--font-arrow);
 }
 
 .button:hover {
