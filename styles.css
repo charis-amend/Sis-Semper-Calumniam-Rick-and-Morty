@@ -13,6 +13,8 @@
   --color-primary: rgb(51, 51, 51);
   --color-secondary: #f6f6f6;
   --font-family: system-ui;
+  --height-title: 58px;
+  --height-searchbar: 42px;
 }
 
 body {
@@ -33,4 +35,5 @@ main {
   width: 300px;
   top: 0;
   background-color: hotpink;
+  height: var(--height-title): 
 }

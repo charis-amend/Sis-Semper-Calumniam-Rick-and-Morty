@@ -1,7 +1,8 @@
 .search-bar-container {
   width: 300px;
   position: fixed;
-  top: 58px;
+  top: calc(var(--height-title));
+  height: var(--height-searchbar);
 }
 
 .search-bar {
