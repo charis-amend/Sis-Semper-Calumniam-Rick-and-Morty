@@ -3,6 +3,8 @@
   background-color: #1195ac;
   border-radius: 2px;
   color: white;
+  font-size: 15px;
+  font-family: 'RubikDoodleShadow-Regular', sans-serif;
 }
 
 .button:hover {

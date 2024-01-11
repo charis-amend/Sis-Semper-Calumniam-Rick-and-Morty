@@ -3,6 +3,11 @@
 @import "components/nav-button/nav-button.css";
 @import "components/nav-pagination/nav-pagination.css";
 
+/* Add font for arrows buttons in pagination */
+@font-face {
+  font-family: 'RubikDoodleShadow-Regular.ttf';
+  src: url('./assets/arrow-font/RubikDoodleShadow-Regular.ttf') format('truetype');
+}
 * {
   box-sizing: border-box;
   margin: 0;
