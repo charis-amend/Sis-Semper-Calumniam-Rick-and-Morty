@@ -7,9 +7,6 @@ export function UpdatePagination(currentPage) {
     const pagination = document.querySelector('[data-js="pagination"]');
 
     // changing the html:
-    // pagination.innerHTML = `
-    // <span class="navigation__pagination" data-js="pagination">${currentPage} / ${maxPage}</span>
-    // `
     pagination.textContent = `${currentPage} / ${maxPage}`
 }
 
