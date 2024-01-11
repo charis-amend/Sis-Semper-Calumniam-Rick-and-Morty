@@ -1,7 +1,7 @@
 .card-container {
   margin-bottom: 10px;
   /* padding-top: calc(var(--height-title) + var(--height-searchbar)); */
-  margin-top: 80px;
+  margin-top: 200px;
 }
 .card {
   width: 300px;
