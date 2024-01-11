@@ -10,7 +10,7 @@
 }
 
 :root {
-  --color-primary: rgb(51, 51, 51);
+  --color-primary: #262c3a;
   --color-secondary: #f6f6f6;
   --font-family: system-ui;
   --height-title: 58px;
@@ -34,6 +34,6 @@ main {
   position: fixed;
   width: 300px;
   top: 0;
-  background-color: #A8D6E5;
-  height: var(--height-title): 
+  background-color: #262c3a;
+  height: var(--height-title);
 }

@@ -6,6 +6,22 @@
 .card {
   width: 300px;
   background-color: var(--color-secondary);
+  border-color: var(--color-primary);
+  border-style: solid;
+  border-radius: 10px;
+
+  margin-bottom: 5px;
+}
+
+.card__image-container {
+  /* overflow: hidden; */
+  width: auto;
+}
+
+.card__image {
+  border-radius: 10px;
+
+  width: 100%;
 }
 
 .card__info {

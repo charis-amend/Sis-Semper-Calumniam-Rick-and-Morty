@@ -3,6 +3,9 @@
   position: fixed;
   top: calc(var(--height-title));
   height: var(--height-searchbar);
+  background-color: #262c3a;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .search-bar {
@@ -10,6 +13,7 @@
   background-color: var(--color-secondary);
   display: grid;
   grid-template-columns: 1fr 24px;
+  border-radius: 5px;
 }
 
 .search-bar__input {
