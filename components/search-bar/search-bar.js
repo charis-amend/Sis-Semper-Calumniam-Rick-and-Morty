@@ -17,7 +17,7 @@ export function SearchingCharacters() {
         searchQuery = searchInput.value;
 
         console.log(searchQuery)
-
+        // fetching the current page and putting the searched input into the browser url which we want to fetch:
         fetchCharacters(currentPage, searchQuery);
     })
 }
