@@ -1,7 +1,7 @@
 .search-bar-container {
   width: auto;
   position: fixed;
-  margin-top: calc(var(--height-header) + 5px);
+  margin-top: calc(var(--height-header) + 7px);
 
   height: var(--height-searchbar);
   /* background-color: #262c3a; */
@@ -14,7 +14,7 @@
 .search-bar-container:hover {
   width: auto;
   position: fixed;
-  margin-top: calc(var(--height-header) + 5px);
+  margin-top: calc(var(--height-header) + 10px);
   height: var(--height-searchbar);
   background-color: var(--color-quaternary);
   border-radius: 10px;
