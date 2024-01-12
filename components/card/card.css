@@ -1,13 +1,21 @@
 .card-container {
   margin-bottom: 10px;
   /* padding-top: calc(var(--height-title) + var(--height-searchbar)); */
-  margin-top: 132px;
+  margin-top: 140px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-container > p {
   font-family: RubikDoodleShadow-Regular;
-  font-size: 14px;
-  color: var(--color-four-yellow);
+  text-align: center;
+  font-size: 12px;
+  color: rebeccapurple;
+  margin: 5px;
+  padding: 5px;
 }
 
 .card {
@@ -17,17 +25,21 @@
   border-style: solid;
   border-radius: 10px;
   margin-bottom: 5px;
+  margin-inline: 5px;
 }
 
 .card__image-container {
   /* overflow: hidden; */
   width: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .card__image {
   border-radius: 10px;
   box-shadow: 1px 1px 1px 1px black;
-  width: 100%;
+  width: 95%;
+  margin: 5px;
 }
 
 .card__info {
