@@ -2,8 +2,8 @@
   margin-bottom: 10px;
   /* padding-top: calc(var(--height-title) + var(--height-searchbar)); */
   margin-top: 140px;
-  width: 300px;
-  display: flex;
+  min-width: 300px;
+  /* display: flex; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -19,10 +19,10 @@
 }
 
 .card {
-  width: 300px;
+  width: auto;
   background-color: var(--color-secondary);
-  border-color: var(--color-primary);
-  border-style: solid;
+  /* border-color: var(--color-primary);
+  border-style: solid; */
   border-radius: 10px;
   margin-bottom: 5px;
   margin-inline: 5px;
@@ -33,13 +33,14 @@
   width: auto;
   display: flex;
   justify-content: center;
+  margin-top: 5px;
 }
 
 .card__image {
   border-radius: 10px;
   box-shadow: 1px 1px 1px 1px black;
   width: 95%;
-  margin: 5px;
+  margin: 20px;
 }
 
 .card__info {
