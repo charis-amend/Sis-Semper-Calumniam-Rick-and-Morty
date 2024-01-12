@@ -16,7 +16,7 @@
   position: fixed;
   margin-top: calc(var(--height-header) + 5px);
   height: var(--height-searchbar);
-  background-color: var(--color-four-yellow);
+  background-color: var(--color-quaternary);
   border-radius: 10px;
   top: 0;
   box-shadow: 1px 1px 1px 1px black;

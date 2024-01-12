@@ -8,7 +8,7 @@
 }
 
 .button:hover {
-  background-color: var(--color-four-yellow);
+  background-color: var(--color-quaternary);
   box-shadow: 2px, 2px, 1px, 1px;
   color: var(--color-primary);
 }

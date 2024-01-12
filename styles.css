@@ -18,8 +18,8 @@
 :root {
   --color-primary: #262c3a;
   --color-secondary: #eceef3;
-  --color-third-turkis: #1195ac;
-  --color-four-yellow: #c6df5f;
+  --color-tertiary: #1195ac;
+  --color-quaternary: #c6df5f;
   --font-family: system-ui;
   --font-arrow: RubikDoodleShadow-Regular;
   --height-header: 100px;
